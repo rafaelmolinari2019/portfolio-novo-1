@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Rafael Molinari │Developer Frontend</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/estilo.css" rel="stylesheet">
+    <link href="../assest/aplicacao.js" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <!--cabeçalho da página-->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="index.html">
+                        <img src="../assest/R.png" width="50" alt="">
+                        <img src="../assest/M.png" width="50" alt="">
+                    </a>
+                </div>
+                <div class="col-md-5 offset-md-5">
+                  <!--<div class="row">
+                        <div class="col order-first" id="cons"><a class="consultoria" href="">Consultoria</a></div>
+                    </div>-->
+                    <div class="col-md-6 offset-md-6">
+                        <div class="row">
+                            <div class="col order-last" id="cont"><a href="../index.html"><img class="seta"
+                                        src="../assest/seta.png" alt=""></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <!--cabeçalho da página-->
+    <!--Texto central duas linhas-->
+    <br><br>
+    <!--Avatar-->
+    <div class="container">
+        <img class="avatar " src="../assest/014.jpg">
+    </div>
+    <!--Avatar-->
+    <div>
+        <h3 class="texto-meio-contato">Como posso te ajudar hoje?</h3>
+    </div>
+    <!--Texto central duas linhas-->
+
+    <br><br>
+    
+    <!--Formulário-->
+    <form class="form" action="dados.php" method="post" >
+        <div class="row">
+            <div class="col-sm-6">
+                <label for="formGroupExampleInput" class="form-label">Nome:</label>
+                <input type="text" name="nome_completo" class="form-control" placeholder="Insira seu nome completo" required >
+            </div>
+            <div class="col-sm-6">
+                <label for="formGroupExampleInput" class="form-label">E-mail:</label>
+                <input type="email" name="email" class="form-control" placeholder="Insira seu e-mail" required >
+            </div>
+        </div>
+        <br>
+        <div class="col-sm-12">
+            <label for="exampleFormControlTextarea1" class="form-label">Assunto:</label>
+            <textarea class="form-control" name="assunto" rows="6" required></textarea>
+        </div>
+        <br>
+        <input type="submit" value="Enviar" class="btn btn-primary">
+    </form>
+    <!--Formulário-->
+
+
+    <footer class="contato">
+        <div class="container">
+            <div class="row" id="rede-social">
+                <div class="col-sm-3">
+                    <a href="https://www.linkedin.com/in/rafael-molinari/">
+                        <img class="link" src="../assest/linkedin.png" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://www.instagram.com/rafaelmolinari82/">
+                        <img class="link" src="../assest/instagram.png" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://twitter.com/rafasmolinari">
+                        <img class="link" src="../assest/twitter.png" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="https://wa.me/5531991649524?text=Olá, gostaria de uma consultoria! qual a sua disponibilidade de agenda?">
+                        <img class="link" src="../assest/whatsapp.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
